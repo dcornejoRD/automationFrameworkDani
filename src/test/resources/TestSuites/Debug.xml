@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Debug" verbose="1">
+	<test name="PositiveTests">
+		<parameter name="browser" value="canary" />
+		<classes>
+			<class name="com.hero.theinternet.LoginTests" >
+			<methods>
+			<include name="positiveLoginTest"></include>
+			</methods>
+			</class>
+		</classes>	
+	</test>
+
+
+
+</suite>

@@ -11,10 +11,10 @@ import org.testng.annotations.Test;
 
 
 
-public class NegativeTest{
+public class Exceptions{
 	
 
-	
+	private WebDriver driver;
 	String getAlertMessage="";
 
 @Parameters({ "username", "password", "expectedMessage" })	
